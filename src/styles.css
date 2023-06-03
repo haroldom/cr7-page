@@ -400,6 +400,10 @@ footer a:hover{
     color: #414141;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 body::-webkit-scrollbar-track
 {
 	background-color: #F5F5F5;
@@ -478,6 +482,27 @@ body::-webkit-scrollbar-thumb
     }
 
     .trophies{
+        height: 100%;
         overflow: hidden;
+    }
+
+    .main-section{
+        height: 100vh;
+    }
+
+    .main-section-text{
+        left: 0;
+        padding: 0 30px;
+    }
+    .main-section-background .background{
+        max-height: none;
+        height: 100% !important;
+    }
+    .cr7-trophies-container{
+        height: 500px;
+    }
+
+    .main-section-background .cr7-main{
+        right: 0;
     }
 }
